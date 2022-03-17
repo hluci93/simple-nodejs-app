@@ -10,4 +10,6 @@ COPY . /app
 
 EXPOSE 80
 
+LABEL type="nodejs"
+
 CMD ["node","server.js"]
